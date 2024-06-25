@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="flex flex-col gap-10 lg:gap-14 items-center justify-center text-center lg:text-left lg:items-start">
 
         <h3 className="font-bold text-4xl lg:text-4xl tracking-tight mb-10">
-          Mars Miami Studios
+          Mars Miami Recording Studio
         </h3>
      
       </div>
