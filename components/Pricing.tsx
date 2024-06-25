@@ -99,6 +99,7 @@ const Pricing = () => {
                     <button className="btn btn-primary btn-block group">
                       Book Now
                       </button>
+                      <p className="text-center text-sm mt-2">+$35/hr with Engineer</p>
                   </a>
                 </div>
               </div>
