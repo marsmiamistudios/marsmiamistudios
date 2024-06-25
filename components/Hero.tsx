@@ -6,10 +6,10 @@ import image from "@/app/homepage.jpg";
 const Hero = () => {
   return (
     <>
-    <section className="max-w-7xl mx-auto bg-base-100 flex flex-col lg:flex-row items-center justify-center gap-16 lg:gap-20 px-8 py-8 lg:py-20">
+    <section className="mt-0 pt-0 max-w-7xl mx-auto bg-base-100 flex flex-col lg:flex-row items-center justify-center gap-16 lg:gap-20 px-8 pt-6 lg:py-10 ">
       <div className="flex flex-col gap-10 lg:gap-14 items-center justify-center text-center lg:text-left lg:items-start">
 
-        <h3 className="font-bold text-3xl lg:text-5xl tracking-tight mb-10">
+        <h3 className="font-extrabold text-3xl lg:text-5xl tracking-tight pb-14" >
           Mars Miami Recording Studio
         </h3>
      
@@ -17,7 +17,7 @@ const Hero = () => {
      
     </section>
      <div className="lg:w-full" style={{marginTop:"-5%", marginBottom:"6%"}}> 
-      <iframe width="90%" height="500" style={{margin:"0 auto", textAlign:"center"}} src="https://www.youtube.com/embed/Ho00TLXFxc8?si=lsaw45TjLpDr0tGQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+     <video width="70%" height="auto" style={{margin:"0 auto", textAlign:"center"}} src="/landingVideo.mov" autoPlay muted loop title="video player"></video>
     </div>
   </>
   );

@@ -58,8 +58,8 @@ const Header = () => {
               alt={`${config.appName} logo`}
               placeholder="blur"
               priority={true}
-              width={50}
-              height={50}
+              width={35}
+              height={35}
             />
           </Link>
         </div>
@@ -123,8 +123,8 @@ const Header = () => {
                 alt={`${config.appName} logo`}
                 placeholder="blur"
                 priority={true}
-                width={50}
-                height={50}
+                width={35}
+                height={35}
               />
             </Link>
             <button

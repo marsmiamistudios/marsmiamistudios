@@ -245,7 +245,7 @@ const FeaturesAccordion = () => {
       id="features"
     >
       <div className="px-8">
-        <h2 className="font-extrabold text-4xl lg:text-6xl tracking-tight mb-12 md:mb-24">
+        <h2 className="font-extrabold text-3xl lg:text-5xl tracking-tight mb-12 md:mb-24">
         Miami`s 
           <span className="bg-neutral text-neutral-content px-2 md:px-4 ml-1 md:ml-1.5 leading-relaxed whitespace-nowrap">
           Diamond Studio
