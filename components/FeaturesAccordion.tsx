@@ -25,7 +25,7 @@ const features = [
   {
     title: "Recording",
     description:
-      "Record your vocals in Miami&apos;s Diamond Studio with our top of the line equipment and experienced engineers.",
+      "Record your vocals in Miami`s Diamond Studio with our top of the line equipment and experienced engineers.",
     type: "video",
     path: "/images/recording.mp4",
     alt: "Audio Recording",
