@@ -50,7 +50,7 @@ const config = {
         isFeatured: true,
         name: "Studio A",
         description: "Top tier studio and recording booth designed by Kris Bentley.",
-        price: 60,
+        price: 55,
         priceAnchor: 75,
         features: [
           {
