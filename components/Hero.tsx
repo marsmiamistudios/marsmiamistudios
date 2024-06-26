@@ -16,8 +16,8 @@ const Hero = () => {
       </div>
      
     </section>
-     <div className="lg:w-full" style={{marginTop:"-5%", marginBottom:"6%"}}> 
-     <video width="70%" height="auto" style={{margin:"0 auto", textAlign:"center"}} src="/landingVideo.mov" autoPlay muted loop title="video player"></video>
+     <div style={{marginTop:"-5%", marginBottom:"6%"}}> 
+     <video className="w-[90%] md:w-[70%]" style={{margin:"0 auto", textAlign:"center"}} src="/landingVideo.mov" autoPlay muted loop title="video player"></video>
     </div>
   </>
   );
