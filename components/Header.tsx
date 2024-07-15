@@ -18,8 +18,8 @@ const links: {
     label: "Pricing",
   },
   {
-    href: "/#testimonials",
-    label: "Reviews",
+    href: "/Studios",
+    label: "Studios",
   },
   {
     href: "/#faq",
