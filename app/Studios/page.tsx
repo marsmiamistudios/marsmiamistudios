@@ -97,7 +97,7 @@ export default async function Studios() {
                     <li>Akai Professional MPK249 49-key Keyboard Controller</li>
                 </div>
                 <div className="w-full md:w-1/2 px-0.2">
-                    <li>Alesis Monitor Two's</li>
+                    <li>Alesis Monitor Two&apos;s</li>
                     <li>KRK Rokit 8s</li>
                     <li>HD Monitor + TV</li>
                 </div>
