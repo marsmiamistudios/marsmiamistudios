@@ -6,9 +6,9 @@ import config from "@/config";
 
 const Studios = () => {
   return (
-    <div>
+    <main>
     <Header></Header>
-    <main className="min-h-screen p-8 pb-24">
+    <div className="min-h-screen p-8 pb-24">
       <section className="py-12 px-16 mx-auto space-y-4">
         <h1 className="text-3xl md:text-4xl font-extrabold">Studios</h1>
       </section>
@@ -106,9 +106,9 @@ const Studios = () => {
             </ul>
         </div>
       </div>
-    </main>
-    <Footer></Footer>
     </div>
+    <Footer></Footer>
+    </main>
   );
 }
 
