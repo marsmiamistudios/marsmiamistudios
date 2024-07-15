@@ -2,7 +2,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import config from "@/config";
 
-export default async function Studios() {
+const Studios = () => {
   return (
     <>
     <Header></Header>
@@ -109,3 +109,5 @@ export default async function Studios() {
     </>
   );
 }
+
+export default Studios;
