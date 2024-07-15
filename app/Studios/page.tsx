@@ -13,7 +13,7 @@ const Studios = () => {
       <div className="px-8 max-w-5xl mx-auto">
         <div>
          <h1 className="text-2xl md:text-3xl font-extrabold">Studio A</h1>
-        <div className="w-9/10 mx-auto px-8 py-16 md:py-32 text-center">
+        <div className="w-9/10 mx-auto px-8 py-16 md:py-16 text-center">
             <div className="flex flex-col md:flex-row justify-center items-center md:items-start gap-2">
                 <div className="w-full md:w-1/3 px-0.2">
                     <img src="/images/StudioA.png"
@@ -23,7 +23,7 @@ const Studios = () => {
                 </div>
                 
                 <div className="w-full md:w-1/3 px-2">
-                    <img src="/images/studioa1.jpeg"
+                    <img src="/images/StudioA1.png"
                     alt="Studio a1"
                     className="object-cover object-center w-full h-auto"
                     />
@@ -66,26 +66,28 @@ const Studios = () => {
 
         <div className="mt-8">
             <h1 className="text-2xl md:text-3xl font-extrabold">Studio B</h1>
-            <div className="flex flex-col md:flex-row justify-center items-center md:items-start gap-2">
-                <div className="w-full md:w-1/3 px-0.2">
-                    <img src="/images/studiob.jpeg"
-                    alt="Studio B"
-                    className="object-cover object-center w-full h-auto"
-                    />
-                </div>
-                
-                <div className="w-full md:w-1/3 px-2">
-                    <img src="/images/studiob2.jpeg"
-                    alt="Studio B2"
-                    className="object-cover object-center w-full h-auto"
-                    />
-                </div>
+            <div className="w-9/10 mx-auto px-8 py-16 md:py-16 text-center">
+                <div className="flex flex-col md:flex-row justify-center items-center md:items-start gap-2">
+                    <div className="w-full md:w-1/3 px-0.2">
+                        <img src="/images/StudioB3.png"
+                        alt="Studio B desk"
+                        className="object-cover object-center w-full h-auto"
+                        />
+                    </div>
+                    
+                    <div className="w-full md:w-1/3 px-2">
+                        <img src="/images/StudioB2.png"
+                        alt="Studio B wide"
+                        className="object-cover object-center w-full h-auto"
+                        />
+                    </div>
 
-                <div className="w-full md:w-1/3 px-2">
-                    <img src="/images/studiob3.jpeg"
-                    alt="Studio b3"
-                    className="object-cover object-center w-full h-auto"
-                    />
+                    <div className="w-full md:w-1/3 px-2">
+                        <img src="/images/StudioB.png"
+                        alt="Studio b coubch"
+                        className="object-cover object-center w-full h-auto"
+                        />
+                    </div>
                 </div>
             </div>
             <h3 className="text-xl md:text-md font-extrabold">Equipment List</h3>

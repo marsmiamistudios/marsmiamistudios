@@ -16,7 +16,6 @@ const CTA = () => {
           <h2 className="font-bold text-3xl md:text-5xl tracking-tight mb-8 md:mb-12">
            Boost your sound quality and record with us today!
           </h2>
-
         
           <a
             href={`mailto:${config.mailgun.supportEmail}`}
