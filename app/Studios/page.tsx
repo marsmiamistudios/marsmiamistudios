@@ -4,7 +4,7 @@ import config from "@/config";
 
 const Studios = () => {
   return (
-    <>
+    <div>
     <Header></Header>
     <main className="min-h-screen p-8 pb-24">
       <section className="py-12 px-16 mx-auto space-y-4">
@@ -106,7 +106,7 @@ const Studios = () => {
       </div>
     </main>
     <Footer></Footer>
-    </>
+    </div>
   );
 }
 
