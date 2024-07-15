@@ -1,6 +1,6 @@
 import themes from "daisyui/src/theming/themes";
 import { ConfigProps } from "./types/config";
-import Rooms from "./app/Rooms/page";
+import Studios from "./app/Studios/page";
 
 const config = {
   // REQUIRED
