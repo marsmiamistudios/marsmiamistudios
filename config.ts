@@ -19,32 +19,32 @@ const config = {
   stripe: {
     // Create multiple plans in your Stripe dashboard, then add them here. You can add as many plans as you want, just make sure to add the priceId
     plans: [
-      {
-        // REQUIRED — we use this to find the plan in the webhook (for instance if you want to update the user's credits based on the plan)
-        priceId:
-          process.env.NODE_ENV === "development"
-            ? ""
-            : "",
-        //  REQUIRED - Name of the plan, displayed on the pricing page
-        name: "Studio B",
-        // A friendly description of the plan, displayed on the pricing page. Tip: explain why this plan and not others
-        description: "Perfect for smaller projects",
-        // The price you want to display, the one user will be charged on Stripe.
-        price: 25,
-        // If you have an anchor price (i.e. $29) that you want to display crossed out, put it here. Otherwise, leave it empty
-        priceAnchor: 40,
-        features: [
-          {
-            name: "Neumann U87 Condenser Microphone",
-          },
-          { name: "Focuscrite Scarlet 2i2" },
-          { name: "Universal Audio 6176 Vintage Channel Strip" },
-          { name: "Akai Professional MPK249 49-key Keyboard Controller"},
-          { name: "Alesis Monitor Two's"},
-          { name: "KRK Rokit 8s" },
-          { name: "HD Monitor + TV" },
-        ],
-      },
+      // {
+      //   // REQUIRED — we use this to find the plan in the webhook (for instance if you want to update the user's credits based on the plan)
+      //   priceId:
+      //     process.env.NODE_ENV === "development"
+      //       ? ""
+      //       : "",
+      //   //  REQUIRED - Name of the plan, displayed on the pricing page
+      //   name: "Studio B",
+      //   // A friendly description of the plan, displayed on the pricing page. Tip: explain why this plan and not others
+      //   description: "Perfect for smaller projects",
+      //   // The price you want to display, the one user will be charged on Stripe.
+      //   price: 25,
+      //   // If you have an anchor price (i.e. $29) that you want to display crossed out, put it here. Otherwise, leave it empty
+      //   priceAnchor: 40,
+      //   features: [
+      //     {
+      //       name: "Neumann U87 Condenser Microphone",
+      //     },
+      //     { name: "Focuscrite Scarlet 2i2" },
+      //     { name: "Universal Audio 6176 Vintage Channel Strip" },
+      //     { name: "Akai Professional MPK249 49-key Keyboard Controller"},
+      //     { name: "Alesis Monitor Two's"},
+      //     { name: "KRK Rokit 8s" },
+      //     { name: "HD Monitor + TV" },
+      //   ],
+      // },
       {
         priceId:
           process.env.NODE_ENV === "development"
@@ -77,7 +77,27 @@ const config = {
   studios: {
     // Create multiple plans in your Stripe dashboard, then add them here. You can add as many plans as you want, just make sure to add the priceId
     Rooms: [
-   
+      // {
+      //   //  REQUIRED - Name of the plan, displayed on the pricing page
+      //   name: "Studio B",
+      //   // A friendly description of the plan, displayed on the pricing page. Tip: explain why this plan and not others
+      //   description: "Perfect for smaller projects",
+      //   // The price you want to display, the one user will be charged on Stripe.
+      //   price: 25,
+      //   // If you have an anchor price (i.e. $29) that you want to display crossed out, put it here. Otherwise, leave it empty
+      //   priceAnchor: 40,
+      //   features: [
+      //     {
+      //       name: "Neumann U87 Condenser Microphone",
+      //     },
+      //     { name: "Focuscrite Scarlet 2i2" },
+      //     { name: "Universal Audio 6176 Vintage Channel Strip" },
+      //     { name: "Akai Professional MPK249 49-key Keyboard Controller"},
+      //     { name: "Alesis Monitor Two's"},
+      //     { name: "KRK Rokit 8s" },
+      //     { name: "HD Monitor + TV" },
+      //   ],
+      // },
       {
         name: "Studio A",
         description: "Top tier studio and recording booth designed by Kris Bentley.",
