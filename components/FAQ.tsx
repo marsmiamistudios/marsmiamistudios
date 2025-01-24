@@ -16,14 +16,16 @@ const faqList: FAQItemProps[] = [
     question: "Are you open everyday?",
     answer: <div className="space-y-2 leading-relaxed">Mars Miami Studios is open 24 hours a day, 7 days a week.</div>,
   },
-  // {
-  //   question: "How can I book a session?",
-  //   answer: (
-  //     <p>
-  //       By heading over to the Book page, you can login with your Gmail and schedule an appointment.
-  //     </p>
-  //   ),
-  // },
+  {
+    question: "How can I book a session?",
+    answer: (
+      <p>
+        {/* By heading over to the Book page, you can login with your Gmail and schedule an appointment. */}
+        Contact us by  <a href={`mailto:${config.mailgun.supportEmail}`} target="_blank"  className="link link-hover" aria-label="Contact Support">Email </a> 
+        or Call/Text: <a href="tel:3058578177" className="link link-hover">(305) 857-8177</a>
+      </p>
+    ),
+  },
   {
     question: "I have another question",
     answer: (
