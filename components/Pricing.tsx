@@ -12,7 +12,7 @@ const Pricing = () => {
         <div className="flex flex-col text-center w-full mb-20">
           <p className="font-bold text-3xl text-primary mb-8">Studio Pricing</p>
           <h2 className="font-medium text-md lg:text-xl tracking-tight">
-            Book one of our studios and record today! Available 24/7!
+            Book our studio and record today! Available 24/7!
           </h2>
         </div>
 
