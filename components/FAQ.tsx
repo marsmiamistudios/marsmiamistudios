@@ -21,7 +21,7 @@ const faqList: FAQItemProps[] = [
     answer: (
       <p>
         {/* By heading over to the Book page, you can login with your Gmail and schedule an appointment. */}
-        Contact us by  <a href={`mailto:${config.mailgun.supportEmail}`} target="_blank"  className="link link-hover" aria-label="Contact Support">Email </a> 
+        Contact us by <a href={`mailto:${config.mailgun.supportEmail}`} target="_blank"  className="link link-hover" aria-label="Contact Support">Email </a> 
         or Call/Text: <a href="tel:3058578177" className="link link-hover">(305) 857-8177</a>
       </p>
     ),
