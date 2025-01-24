@@ -96,7 +96,10 @@ const Pricing = () => {
                     className="link link-hover"
                     aria-label="Contact Support"
                   >
-                    <button className="btn btn-primary btn-block group">
+                    <button className="btn btn-primary btn-block group" onClick={() => {
+                      const section = document.getElementById("footer");
+                      section?.scrollIntoView({ behavior: "smooth" });
+                    }}>
                       Book Now
                       </button>
                       <p className="text-center text-sm mt-2">+$30/hr with Engineer</p>
