@@ -29,7 +29,7 @@ const faqList: FAQItemProps[] = [
   {
     question: "I have another question",
     answer: (
-      <div className="space-y-2 leading-relaxed">Cool, contact us by email: marsstudio305@gmail.com</div>
+      <div className="space-y-2 leading-relaxed">Cool, contact us by <a href={`mailto:${config.mailgun.supportEmail}`} target="_blank"  className="link link-hover" aria-label="Contact Support">Email </a> </div>
     ),
   },
 ];
