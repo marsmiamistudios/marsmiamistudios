@@ -63,7 +63,7 @@ const Studios = () => {
                 </div>
             </ul>
         </div>
-
+{/* 
         <div className="mt-8">
             <h1 className="text-2xl md:text-3xl font-extrabold">Studio B</h1>
             <div className="w-9/10 mx-auto px-8 py-16 md:py-16 text-center">
@@ -104,7 +104,7 @@ const Studios = () => {
                     <li>HD Monitor + TV</li>
                 </div>
             </ul>
-        </div>
+        </div> */}
       </div>
     </div>
     <Footer></Footer>
